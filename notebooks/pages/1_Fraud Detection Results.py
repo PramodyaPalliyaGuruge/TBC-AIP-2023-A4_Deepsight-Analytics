@@ -93,9 +93,7 @@ if uploaded_file is not None:
 
 
             # Loading final model
-            with open('../../models/model_lr.pkl', 'rb') as f:
-                model_lr = pkl.load(f)
-            #model_lr = pkl.load(open(r'../../models/model_lr.pkl','rb'))
+            model_lr = pkl.load(open(r'../../models/model_lr.pkl','rb'))
             model_rf = pkl.load(open(r'../../models/model_rf.pkl','rb'))
 
 
@@ -104,7 +102,7 @@ if uploaded_file is not None:
 
 
             # Loading scaler
-            sc = pkl.load(open(r'C:\Users\ishan\Project\TBC-AIP-2023-A4_Deepsight-Analytics/models/processers/scaler.pkl','rb'))
+            sc = pkl.load(open(r'../../models/processers/scaler.pkl','rb'))
 
             X_test = sc.transform(X_test)
 
