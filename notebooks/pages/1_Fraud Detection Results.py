@@ -7,8 +7,8 @@
 #import time # for simulating a real-time data, time loop
 #import numpy as np # np mean, np random
 import pandas as pd # read csv, df manipulation
-import plotly.express as px # interactive charts
-import matplotlib.pyplot as plt
+#import plotly.express as px # interactive charts
+#import matplotlib.pyplot as plt
 import pickle as pkl
 import timeit
 import streamlit as st # data web application development
@@ -93,8 +93,8 @@ if uploaded_file is not None:
 
 
             # Loading final model
-            model_lr = pkl.load(open(r'C:\Users\ishan\Project\TBC-AIP-2023-A4_Deepsight-Analytics/models/model_lr.pkl','rb'))
-            model_rf = pkl.load(open(r'C:\Users\ishan\Project\TBC-AIP-2023-A4_Deepsight-Analytics/models/model_rf.pkl','rb'))
+            model_lr = pkl.load(open(r'../../models/model_lr.pkl','rb'))
+            model_rf = pkl.load(open(r'../../models/model_rf.pkl','rb'))
 
 
             X_test = df.drop('Class', axis=1)
