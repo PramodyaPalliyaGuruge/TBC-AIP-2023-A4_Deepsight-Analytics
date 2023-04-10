@@ -7,9 +7,9 @@
 #import time # for simulating a real-time data, time loop
 #import numpy as np # np mean, np random
 import pandas as pd # read csv, df manipulation
-import plotly.express as px # interactive charts
+#import plotly.express as px # interactive charts
 import matplotlib.pyplot as plt
-import pickle as pkl
+#import pickle as pkl
 import timeit
 import streamlit as st # data web application development
 
