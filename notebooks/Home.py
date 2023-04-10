@@ -30,7 +30,7 @@ st.set_page_config(
 
 # dashboard title
 #st.image("credit_card.png", width=100)
-htp="https://raw.githubusercontent.com/PramodyaPalliyaGuruge/TBC-AIP-2023-A4_Deepsight-Analytics/main/credit_card.svg.png"
+htp="https://raw.githubusercontent.com/PramodyaPalliyaGuruge/TBC-AIP-2023-A4_Deepsight-Analytics/main/notebooks/credit_card.svg.png"
 st.image(htp, width=100)
 st.title("Welcome to Deepsight Credit Card Fraud Detection System")
 
