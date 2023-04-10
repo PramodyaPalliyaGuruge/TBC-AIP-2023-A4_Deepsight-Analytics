@@ -93,7 +93,9 @@ if uploaded_file is not None:
 
 
             # Loading final model
-            model_lr = pkl.load(open(r'../../models/model_lr.pkl','rb'))
+            with open('../../models/model_lr.pkl', 'rb') as f:
+                model_lr = pkl.load(f)
+            #model_lr = pkl.load(open(r'../../models/model_lr.pkl','rb'))
             model_rf = pkl.load(open(r'../../models/model_rf.pkl','rb'))
 
 
