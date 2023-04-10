@@ -30,7 +30,7 @@ st.set_page_config(
 
 # dashboard title
 st.image("credit_card.png", width=100)
-st.title("Welcome to NextGen Credit Card Fraud Detection System")
+st.title("Welcome to Deepsight Credit Card Fraud Detection System")
 
 
 # In[8]:
